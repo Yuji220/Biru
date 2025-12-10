@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Biomassa & Biogas - Pengenalan Energi Terbarukan</title>
+  <meta name="description" content="Pelajari tentang biomassa dan biogas sebagai sumber energi terbarukan dari bahan organik." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">
+          <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Outer glow -->
+            <circle cx="28" cy="28" r="27" fill="url(#glow)" opacity="0.3"/>
+            <!-- Main circle with gradient -->
+            <circle cx="28" cy="28" r="24" fill="url(#sunGradient)" stroke="url(#sunBorder)" stroke-width="2"/>
+            <!-- Sun rays -->
+            <g stroke="#fbbf24" stroke-width="2" stroke-linecap="round">
+              <line x1="28" y1="6" x2="28" y2="10"/>
+              <line x1="28" y1="46" x2="28" y2="50"/>
+              <line x1="6" y1="28" x2="10" y2="28"/>
+              <line x1="46" y1="28" x2="50" y2="28"/>
+              <line x1="12" y1="12" x2="16" y2="16"/>
+              <line x1="40" y1="40" x2="44" y2="44"/>
+              <line x1="12" y1="44" x2="16" y2="40"/>
+              <line x1="40" y1="16" x2="44" y2="12"/>
+            </g>
+            <!-- Solar panels -->
+            <rect x="18" y="36" width="20" height="3" rx="1.5" fill="url(#panelGradient)"/>
+            <rect x="16" y="40" width="24" height="3" rx="1.5" fill="url(#panelGradient)"/>
+            <!-- Wind turbine -->
+            <g transform="translate(8, 8)">
+              <line x1="4" y1="12" x2="4" y2="20" stroke="#10b981" stroke-width="1.5"/>
+              <circle cx="4" cy="10" r="2" fill="#10b981"/>
+              <path d="M2 8 L4 6 L6 8" stroke="#10b981" stroke-width="1.5" fill="none"/>
+            </g>
+            <!-- Water wave -->
+            <path d="M8 48 Q14 44 20 48 Q26 52 32 48 Q38 44 44 48" stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.7"/>
+            <defs>
+              <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6"/>
+                <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+              </radialGradient>
+
+              <radialGradient id="sunGradient" cx="30%" cy="30%">
+                <stop offset="0%" stop-color="#fef3c7"/>
+                <stop offset="70%" stop-color="#fbbf24"/>
+                <stop offset="100%" stop-color="#f59e0b"/>
+              </radialGradient>
+              <linearGradient id="sunBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#f59e0b"/>
+                <stop offset="100%" stop-color="#d97706"/>
+              </linearGradient>
+              <linearGradient id="panelGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#10b981"/>
+                <stop offset="50%" stop-color="#059669"/>
+                <stop offset="100%" stop-color="#047857"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div>
+          <div style="font-weight:800">Renew the World: A New Era of Sustainable Power</div>
+          <div style="font-size:12px;color:var(--muted)">Menjaga Kehidupan di Bumi</div>
+        </div>
+      </div>
+      <nav aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="matahari.html">Matahari</a>
+        <a href="angin.html">Angin</a>
+        <a href="air.html">Air</a>
+        <a href="#biomassa">Biomassa</a>
+        <a href="index.html#manfaat">Manfaat</a>
+        <a href="index.html#quiz">Quiz</a>
+        <a href="index.html#kalkulator">Kalkulator</a>
+        <a href="testimoni-kontak.html">Testimoni & Kontak</a>
+      </nav>
+    </header>
+
+    <section id="biomassa" class="card" style="margin-top:18px">
+      <h2>Biomassa & Biogas</h2>
+      <p class="muted">Biomassa adalah energi dari bahan organik seperti kayu, tanaman, dan limbah pertanian yang dibakar untuk menghasilkan panas atau listrik. Biogas dihasilkan dari fermentasi anaerobik limbah organik oleh bakteri, menghasilkan gas metana yang dapat digunakan sebagai bahan bakar. Cocok untuk daerah pertanian dan pengolahan limbah. Keunggulan: mengurangi limbah, dapat digunakan sebagai bahan bakar transportasi, dan berkontribusi pada pengelolaan sampah.</p>
+
+      <h3>Galeri Biomassa & Biogas</h3>
+      <div class="types">
+        <div class="type" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=150&fit=crop" alt="Pembangkit Biomassa" class="energy-image">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>Go green, stay clean—switch ke energi terbarukan!</div>
+      <div style="margin-top:8px;font-size:13px;color:var(--muted)">© EnergiTerbarukan · 2025</div>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

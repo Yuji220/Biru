@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Testimoni & Kontak - Pengenalan Energi Terbarukan</title>
+  <meta name="description" content="Baca testimoni pengguna energi terbarukan dan hubungi kami untuk pertanyaan." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">
+          <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Outer glow -->
+            <circle cx="28" cy="28" r="27" fill="url(#glow)" opacity="0.3"/>
+            <!-- Main circle with gradient -->
+            <circle cx="28" cy="28" r="24" fill="url(#sunGradient)" stroke="url(#sunBorder)" stroke-width="2"/>
+            <!-- Sun rays -->
+            <g stroke="#fbbf24" stroke-width="2" stroke-linecap="round">
+              <line x1="28" y1="6" x2="28" y2="10"/>
+              <line x1="28" y1="46" x2="28" y2="50"/>
+              <line x1="6" y1="28" x2="10" y2="28"/>
+              <line x1="46" y1="28" x2="50" y2="28"/>
+              <line x1="12" y1="12" x2="16" y2="16"/>
+              <line x1="40" y1="40" x2="44" y2="44"/>
+              <line x1="12" y1="44" x2="16" y2="40"/>
+              <line x1="40" y1="16" x2="44" y2="12"/>
+            </g>
+            <!-- Solar panels -->
+            <rect x="18" y="36" width="20" height="3" rx="1.5" fill="url(#panelGradient)"/>
+            <rect x="16" y="40" width="24" height="3" rx="1.5" fill="url(#panelGradient)"/>
+            <!-- Wind turbine -->
+            <g transform="translate(8, 8)">
+              <line x1="4" y1="12" x2="4" y2="20" stroke="#10b981" stroke-width="1.5"/>
+              <circle cx="4" cy="10" r="2" fill="#10b981"/>
+              <path d="M2 8 L4 6 L6 8" stroke="#10b981" stroke-width="1.5" fill="none"/>
+            </g>
+            <!-- Water wave -->
+            <path d="M8 48 Q14 44 20 48 Q26 52 32 48 Q38 44 44 48" stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.7"/>
+            <defs>
+              <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6"/>
+                <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="sunGradient" cx="30%" cy="30%">
+                <stop offset="0%" stop-color="#fef3c7"/>
+                <stop offset="70%" stop-color="#fbbf24"/>
+                <stop offset="100%" stop-color="#f59e0b"/>
+              </radialGradient>
+              <linearGradient id="sunBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#f59e0b"/>
+                <stop offset="100%" stop-color="#d97706"/>
+              </linearGradient>
+              <linearGradient id="panelGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#10b981"/>
+                <stop offset="50%" stop-color="#059669"/>
+                <stop offset="100%" stop-color="#047857"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div>
+          <div style="font-weight:800">Renew the World: A New Era of Sustainable Power</div>
+          <div style="font-size:12px;color:var(--muted)">Menjaga Kehidupan di Bumi</div>
+        </div>
+      </div>
+      <nav aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="matahari.html">Matahari</a>
+        <a href="angin.html">Angin</a>
+        <a href="air.html">Air</a>
+        <a href="biomassa.html">Biomassa</a>
+        <a href="#manfaat">Manfaat</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#kalkulator">Kalkulator</a>
+      </nav>
+    </header>
+
+    <section id="testimoni" class="card" style="margin-top:18px">
+      <h2>Testimoni</h2>
+      <p class="muted">Apa kata mereka yang telah beralih ke energi terbarukan.</p>
+
+      <div class="testimonials">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Setelah menginstall panel surya di rumah saya, tagihan listrik berkurang drastis. Selain hemat, saya juga merasa lebih bertanggung jawab terhadap lingkungan."</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Ahmad S.</strong><br>
+            <span class="muted">Jakarta</span>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Sebagai petani, saya sangat terbantu dengan biogas dari limbah ternak. Tidak hanya mengurangi polusi, tapi juga memberikan energi tambahan untuk rumah tangga."</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Siti R.</strong><br>
+            <span class="muted">Yogyakarta</span>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Energi angin di daerah pesisir kami memberikan lapangan kerja baru dan mengurangi ketergantungan pada bahan bakar fosil yang mahal."</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Budi P.</strong><br>
+            <span class="muted">Bali</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="card contact-form" style="margin-top:18px">
+      <h2>Hubungi Kami</h2>
+      <p class="muted">Ada pertanyaan tentang energi terbarukan? Kirim pesan kepada kami!</p>
+
+      <form id="contactForm">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+          <div>
+            <label for="name" style="display:block;margin-bottom:4px;font-weight:600">Nama</label>
+            <input type="text" id="name" name="name" required style="width:100%;padding:10px;border:1px solid rgba(15,118,110,0.2);border-radius:8px;font-size:14px">
+          </div>
+          <div>
+            <label for="email" style="display:block;margin-bottom:4px;font-weight:600">Email</label>
+            <input type="email" id="email" name="email" required style="width:100%;padding:10px;border:1px solid rgba(15,118,110,0.2);border-radius:8px;font-size:14px">
+          </div>
+        </div>
+        <div style="margin-bottom:16px">
+          <label for="subject" style="display:block;margin-bottom:4px;font-weight:600">Subjek</label>
+          <select id="subject" name="subject" required style="width:100%;padding:10px;border:1px solid rgba(15,118,110,0.2);border-radius:8px;font-size:14px">
+            <option value="">Pilih subjek</option>
+            <option value="general">Pertanyaan Umum</option>
+            <option value="installation">Instalasi Panel Surya</option>
+            <option value="calculator">Kalkulator Energi</option>
+            <option value="partnership">Kemitraan</option>
+            <option value="other">Lainnya</option>
+          </select>
+        </div>
+        <div style="margin-bottom:16px">
+          <label for="message" style="display:block;margin-bottom:4px;font-weight:600">Pesan</label>
+          <textarea id="message" name="message" rows="4" required style="width:100%;padding:10px;border:1px solid rgba(15,118,110,0.2);border-radius:8px;font-size:14px;resize:vertical"></textarea>
+        </div>
+        <button type="submit" style="padding:12px 24px;border:none;border-radius:8px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;font-weight:600;cursor:pointer">Kirim Pesan</button>
+      </form>
+
+      <div id="formMessage" style="margin-top:16px;padding:12px;border-radius:8px;display:none"></div>
+    </section>
+
+    <footer>
+      <div>Go green, stay clean—switch ke energi terbarukan!</div>
+      <div style="margin-top:8px;font-size:13px;color:var(--muted)">© EnergiTerbarukan · 2025</div>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
